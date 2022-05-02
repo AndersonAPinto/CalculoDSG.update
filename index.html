@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt">
-
+<!--created by @AndersonAPinto, on date 05/01/2020.-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&display=swap" rel="stylesheet">
     <title>Calculo DQ200</title>
 </head>
 
 <body>
     <div class="container">
-
-        Valor de b1 <input id ="b1" type="text"><br>
-        Valor de b2 <input id = "b2" type="text">
-        <li id="resultado"></li>
-        <button onclick="calcular()">Calcular</button>       
+        <img id="logo" src="./Images/logo-ok.png" alt="https://www.google.com/search?q=motortech&sxsrf=ALiCzsaSRSUfvaBhkM8dlmx4MF1xCOqYvg:1651436144610&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi46pKGj7_3AhV0rpUCHdVjCYEQ_AUoAnoECAMQBA#imgrc=4xW0uaxJA9j5PM">
+        <br>
+        <h2>Cálculo do Calço de ajuste do Cambio DQ200</h2>
+        <div id="box">
+            <br>
+            Valor de b1 <input id="b1" type="text"><br>
+            Valor de b2 <input id="b2" type="text">
+            <li id="resultado"></li><br>
+            Valor de a1¹ <input id="a1_1" type="text"><br>
+            Valor de a1² <input id="a1_2" type="text">
+            <li id="resultadodeA1"></li><br>
+            Valor de a2¹ <input id="a2_1" type="text"><br>
+            Valor de a2² <input id="a2_2" type="text">
+            <li id="resultadodeA2"></li><br>
+            Tolerância de K1 <input id="toleranciaK1" type="text"><br>
+            Tolerância de K2 <input id="toleranciaK2" type="text"><br>
+            <br>
+            <br>
+            <li>
+                <h2 id="resultadodeSK1"></h2>
+            </li>
+            <li>
+                <h2 id="resultadodeSK2"></h2>
+            </li>
+            <button onclick="calcular()">Calcular</button>
+            <button onclick="limparDados()">Limpar Dados</button>
+            <br>
+            <br>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
