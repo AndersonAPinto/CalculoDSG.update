@@ -15,7 +15,7 @@ function calcular() {
     if (A1 > 0 && A1 != String)
         document.getElementById('resultadodeA1').innerHTML = 'Valor de A1 é ' + A1 + " mm";
     else
-        document.getElementById('resultadodeA1').innerHTML = "Digite um número"
+        document.getElementById('resultadodeA1').innerHTML = "Digite um número";
 
     var a2_1 = document.querySelector("#a2_1").value;
     var a2_2 = document.querySelector("#a2_2").value;
@@ -24,7 +24,7 @@ function calcular() {
     if (A2 > 0 && A2 != String)
         document.getElementById('resultadodeA2').innerHTML = 'Valor de A2 é ' + A2 + " mm";
     else
-        document.getElementById('resultadodeA2').innerHTML = "Digite um número"
+        document.getElementById('resultadodeA2').innerHTML = "Digite um número";
 
     var toleranciaK1 = parseFloat(document.querySelector("#toleranciaK1").value);
     var toleranciaK2 = parseFloat(document.querySelector("#toleranciaK2").value);
@@ -36,8 +36,7 @@ function calcular() {
         document.getElementById('resultadodeSK1').innerHTML = 'Valor do calço de ajuste SK1 é ' + SK1 + " mm";
         document.getElementById('resultadodeSK2').innerHTML = 'Valor do calço de ajuste SK2 é ' + SK2 + " mm";
     }
-    // document.getElementsById('#resultadodeSK1').innerHTML='';
-    //document.getElementsById('#resultadodeSK2').innerHTML='';
+
 }
 function limparDados() {
     b1.value = '';
