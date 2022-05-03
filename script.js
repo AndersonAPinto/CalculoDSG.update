@@ -32,7 +32,7 @@ function calcular() {
     var SK1 = (A1 - B) + toleranciaK1;
     var SK2 = (A2 - B) + toleranciaK2;
   
-    if ((SK1) && (SK2) > -20) {
+    if ((SK1) && (SK2) > 0) {
         document.getElementById('resultadodeSK1').innerHTML = 'Valor do calço de ajuste SK1 é ' + SK1 + " mm";
         document.getElementById('resultadodeSK2').innerHTML = 'Valor do calço de ajuste SK2 é ' + SK2 + " mm";
     }
@@ -42,10 +42,13 @@ function calcular() {
 function limparDados() {
     b1.value = '';
     b2.value = '';
+    document.getElementById('resultado').innerHTML = '';
     a1_1.value = '';
     a1_2.value = '';
+    document.getElementById('resultadodeA1').innerHTML = '';
     a2_1.value = '';
     a2_2.value = '';
+    document.getElementById('resultadodeA2').innerHTML = '';
     toleranciaK1.value = '';
     toleranciaK2.value = '';
     document.getElementById('resultadodeSK1').innerHTML = '';
