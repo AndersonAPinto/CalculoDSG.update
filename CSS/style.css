@@ -18,9 +18,11 @@ h1 {
     text-transform: uppercase;
     color: rgb(190, 156, 156);
 }
-button{
+
+button {
     padding: 2px;
 }
+
 #box {
     color: aliceblue;
     text-align: center;
@@ -44,10 +46,11 @@ img {
 @media (min-width:500px) {
     #box {
         width: 100%;
-        width:480px ;
-       
+        width: 480px;
+
     }
-    .container{
+
+    .container {
         height: 100vh;
 
     }
