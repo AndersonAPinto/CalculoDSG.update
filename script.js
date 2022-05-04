@@ -28,8 +28,7 @@ function calcular() {
 
     var toleranciaK1 = parseFloat(document.querySelector("#toleranciaK1").value);
     var toleranciaK2 = parseFloat(document.querySelector("#toleranciaK2").value);
-    console.log(toleranciaK1);
-    console.log(toleranciaK2);
+    
     var SK1 = ((A1 - B) + toleranciaK1).toFixed(2);
     var SK2 = ((A2 - B) + toleranciaK2).toFixed(2);
   
