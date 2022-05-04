@@ -12,7 +12,7 @@
     background-image: linear-gradient(45deg, black, rgb(108, 100, 101), rgb(52, 52, 56));
     text-align: center;
     padding: 27px;
-    height: 100%;
+    height: 100vh;
 }
 h1 {
     text-transform: uppercase;
@@ -48,7 +48,7 @@ img {
         }
 
     .container {
-        height: 100%;
+        height: 100vh;
 
     }
 }
