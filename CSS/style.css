@@ -3,6 +3,8 @@
     padding: 0;
     font-family: 'Permanent Marker', cursive;
     font-family: 'Righteous', cursive;
+    background-color: (45deg, black, rgb(108, 100, 101), rgb(52, 52, 56));
+
 }
 
 .container {
@@ -12,14 +14,18 @@
     text-align: center;
     padding: 27px;
     height: 125vh;
+
 }
+
 h1 {
     text-transform: uppercase;
     color: rgb(190, 156, 156);
 }
+
 button {
     padding: 2px;
 }
+
 #box {
     color: aliceblue;
     text-align: center;
@@ -31,6 +37,7 @@ button {
     padding: 10px;
     max-width: 590px;
     min-width: 280px;
+    border-radius: 20px;
 }
 
 img {
@@ -44,10 +51,10 @@ img {
     #box {
         width: 100%;
         width: 480px;
-        }
+    }
 
     .container {
-        height: 100vh;
+        height: 125vh;
 
     }
 }
