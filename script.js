@@ -32,7 +32,7 @@ function calcular() {
     var SK1 = ((A1 - B) + toleranciaK1).toFixed(2);
     var SK2 = ((A2 - B) + toleranciaK2).toFixed(2);
   
-    if ((SK1) && (SK2) > 0) {
+    if ((SK1) && (SK2) > -10) {
         document.getElementById('resultadodeSK1').innerHTML = 'Valor do calço de ajuste SK1 é ' + SK1 + " mm";
         document.getElementById('resultadodeSK2').innerHTML = 'Valor do calço de ajuste SK2 é ' + SK2 + " mm";
     }
